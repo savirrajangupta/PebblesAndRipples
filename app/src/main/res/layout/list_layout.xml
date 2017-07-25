@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="4dp"
+    android:layout_marginRight="4dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="4dp"
+    android:textSize="18sp"
+    android:id="@+id/vistor_name"
+    android:fontFamily="serif"
+    android:layout_weight="1"
+    android:text="Vistor_name"/>
+    <TextView
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:layout_margin="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/vistor_info"
+        android:text="Vistor_info"/>
+    <TextView
+        android:fontFamily="serif"
+        android:textSize="18sp"
+        android:layout_margin="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/visit_date"
+        android:text="visit_date"/>
+
+</LinearLayout>
